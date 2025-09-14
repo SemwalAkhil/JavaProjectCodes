@@ -39,82 +39,123 @@ The problems are organized by topics as per the site. Some of the topics include
 
 ---
 
-## 🗂 Repository Structure
+## 📂 Repository Structure
 
-Here’s the suggested folder / file structure:
+The repo is organized **topic-wise** (e.g. `basic_programming_construct`, `strings`, `inheritance`, etc.).  
+
+Inside each topic folder, problem solutions are named as **p_X.java** where **X** is the problem number.  
+
+- **p_1.java** → Single-script program (all logic in one file)  
+- **p_2_1.java, p_2_2.java, …** → Multi-script or multi-class programs (can have sub-classes in the same file)  
+
+Example:  
 
 ```
-/
-├── README.md
-├── topics/
-│   ├── basic_programming_constructs/
-│   │   ├── ProblemName1.java
-│   │   ├── ProblemName2.java
-│   │   └── ...
-│   ├── strings/
-│   │   ├── ReverseString.java
-│   │   ├── AnagramCheck.java
-│   │   └── ...
-│   ├── exception_handling/
-│   └── ...
-└── template/
-    └── JavaTemplate.java
-```
 
-* Each topic has its own folder under **topics/**
-* Java files named clearly by problem name (CamelCase or meaningful names)
-* A **template/** folder to store a generic template file which students can copy when writing solutions
+basic\_programming\_construct/
+├── p\_1.java        # Simple single-script program
+├── p\_2\_1.java      # Multi-script program, first variation
+├── p\_2\_2.java      # Multi-script program, second variation
+...
+strings/
+├── p\_1.java
+├── p\_2\_1.java
+...
+
+````
 
 ---
 
-## 🧰 Java Program Template
+## 🧰 Program Templates
 
-Here is a sample template that each Java solution should follow for consistency:
+### 🔹 Single-script Programs (p_1.java, p_3.java, etc.)
 
 ```java
-/**
- * Problem: <Problem Title>
- */
+// 1. Title of the program
 
-package topics.<topic_name>;  // e.g. topics.strings
+/*
+IMPORTS
+*/
 
-public class <ProblemName> {
-    public static void main(String[] args) {
-        // TODO: Your solution starts here
-
-        // 1. Read input (if any)
-        // 2. Process / logic
-        // 3. Output result
-
-        // Example:
-        // Scanner sc = new Scanner(System.in);
-        // int n = sc.nextInt();
-        // ...
+// Use same class name as script name
+class p1 {
+    public static void main(String args[]) {
+        // Program logic here
     }
+}
+````
 
-    // You may add helper methods if needed, e.g.:
-    // private static <ReturnType> helperMethod( ... ) { ... }
+---
+
+### 🔹 Multi-script Programs (p\_2\_1.java, p\_2\_2.java, etc.)
+
+```java
+// 2.1. Title of the program (Sample for programs across multiple script files or classes)
+
+/*
+IMPORTS
+*/
+
+// Use same class name as script name
+class p2_1 {
+    public static void main(String args[]) {
+        // Main program logic here
+    }
+}
+
+// In case further sub-classes are needed, 
+// use the following naming or any naming that suits functionality
+class p2_1_1 {
+    void myfunc() {
+        // Subclass logic here
+    }
+}
+```
+
+Another example (second variation):
+
+```java
+// 2.2. Title of the program
+
+/*
+IMPORTS
+*/
+
+class p2_2 {
+    public static void main(String args[]) {
+        // Main program logic here
+    }
+}
+
+class p2_2_1 {
+    void myfunc() {
+        // Subclass logic here
+    }
 }
 ```
 
 ---
 
-## 🧑‍🤝‍🧑 How to Contribute
+## 🧑‍🤝‍🧑 Contribution Guidelines
 
-1. **Fork** the repo (if using personal GitHub accounts).
-2. Create a new branch, ideally named something like `topic-problemName` or `strings-ReverseString`.
-3. Add your solution file under the correct topic folder in **topics/**.
-4. Follow the Java Program Template above.
-5. Submit a Pull Request (PR) with a description of what you’ve done: which problem, key idea of your approach.
-6. If there are multiple solutions (e.g. more efficient / simpler / using different methods), feel free to include both, but name them clearly (e.g. `ProblemName_Simple.java`, `ProblemName_Optimized.java`).
+1. Add your solution under the correct **topic folder**.
+2. Follow the **p\_X.java** naming convention.
+3. Use the correct template (single-script or multi-script).
+4. Keep your class name the same as the file name.
+5. Comment the **program title** at the top.
+6. Test your code before committing.
 
 ---
 
-## ✅ Coding Standards and Best Practices
+## ✅ Best Practices
 
-* Use meaningful class and file names.
-* Include comments where logic is complex.
-* Handle edge cases (e.g. null, empty input, large input).
-* Keep code readable: proper indentation, spacing, etc.
-* If using external libraries, mention dependencies (but for core Java, try to stick with JDK).
-      "
+* Use proper indentation and meaningful variable names.
+* Add comments for tricky parts of the logic.
+* Follow the same class/file naming style.
+* Keep everything inside the relevant topic folder.
+
+---
+
+> “Consistency is more important than complexity — let’s keep our code organized and simple to learn from.”
+
+---
