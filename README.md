@@ -117,9 +117,4 @@ public class <ProblemName> {
 * Handle edge cases (e.g. null, empty input, large input).
 * Keep code readable: proper indentation, spacing, etc.
 * If using external libraries, mention dependencies (but for core Java, try to stick with JDK).
-
-If you like, I can generate a **CONTRIBUTING.md** to go alongside this, or format the README with badges and auto-table of contents. Do you want me to build that?
-
-[1]: https://c4knowledgeseekers.in/practice-problems/core-java-programming "
-        C4 Knowledge Seekers: One Stop solution for computer science solutions!
       "
