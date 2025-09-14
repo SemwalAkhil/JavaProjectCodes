@@ -52,14 +52,14 @@ Example:
 
 ```
 
-basic\_programming\_construct/
-├── p\_1.java        # Simple single-script program
-├── p\_2\_1.java      # Multi-script program, first variation
-├── p\_2\_2.java      # Multi-script program, second variation
+basic_programming_construct/
+├── p1.java        # Simple single-script program
+├── p2\_1.java      # Multi-script program, first variation
+├── p2\_2.java      # Multi-script program, second variation
 ...
 strings/
-├── p\_1.java
-├── p\_2\_1.java
+├── p1.java
+├── p2_1.java
 ...
 
 ````
@@ -68,7 +68,7 @@ strings/
 
 ## 🧰 Program Templates
 
-### 🔹 Single-script Programs (p_1.java, p_3.java, etc.)
+### 🔹 Single-script Programs (p1.java, p3.java, etc.)
 
 ```java
 // 1. Title of the program
@@ -87,7 +87,7 @@ class p1 {
 
 ---
 
-### 🔹 Multi-script Programs (p\_2\_1.java, p\_2\_2.java, etc.)
+### 🔹 Multi-script Programs (p2_1.java, p2_2.java, etc.)
 
 ```java
 // 2.1. Title of the program (Sample for programs across multiple script files or classes)
@@ -139,7 +139,7 @@ class p2_2_1 {
 ## 🧑‍🤝‍🧑 Contribution Guidelines
 
 1. Add your solution under the correct **topic folder**.
-2. Follow the **p\_X.java** naming convention.
+2. Follow the **p_X.java** naming convention.
 3. Use the correct template (single-script or multi-script).
 4. Keep your class name the same as the file name.
 5. Comment the **program title** at the top.
