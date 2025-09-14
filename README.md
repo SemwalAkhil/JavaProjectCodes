@@ -54,8 +54,8 @@ Example:
 
 basic_programming_construct/
 ├── p1.java        # Simple single-script program
-├── p2\_1.java      # Multi-script program, first variation
-├── p2\_2.java      # Multi-script program, second variation
+├── p2_1.java      # Multi-script program, first variation
+├── p2_2.java      # Multi-script program, second variation
 ...
 strings/
 ├── p1.java
