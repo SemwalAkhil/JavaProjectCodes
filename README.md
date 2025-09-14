@@ -45,8 +45,8 @@ The repo is organized **topic-wise** (e.g. `basic_programming_construct`, `strin
 
 Inside each topic folder, problem solutions are named as **p_X.java** where **X** is the problem number.  
 
-- **p_1.java** → Single-script program (all logic in one file)  
-- **p_2_1.java, p_2_2.java, …** → Multi-script or multi-class programs (can have sub-classes in the same file)  
+- **p1.java** → Single-script program (all logic in one file)  
+- **p2_1.java, p2_2.java, …** → Multi-script or multi-class programs (can have sub-classes in the same file)  
 
 Example:  
 
@@ -139,7 +139,7 @@ class p2_2_1 {
 ## 🧑‍🤝‍🧑 Contribution Guidelines
 
 1. Add your solution under the correct **topic folder**.
-2. Follow the **p_X.java** naming convention.
+2. Follow the **pX.java** naming convention.
 3. Use the correct template (single-script or multi-script).
 4. Keep your class name the same as the file name.
 5. Comment the **program title** at the top.
