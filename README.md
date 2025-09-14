@@ -1,7 +1,7 @@
 # C4 Knowledge Seekers – Core Java Programming Solutions
 
 Welcome to the **C4 Knowledge Seekers – Core Java Programming** solutions repository!
-This repo contains student-submitted solutions to the practice problems listed at the [Core Java Programming](https://c4knowledgeseekers.in/practice-problems/core-java-programming) page. ([C4 Knowledge Seekers][1])
+This repo contains student-submitted solutions to the practice problems listed at the [Core Java Programming](https://c4knowledgeseekers.in/practice-problems/core-java-programming) page.
 
 ---
 
