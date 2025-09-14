@@ -46,8 +46,6 @@ Here’s the suggested folder / file structure:
 ```
 /
 ├── README.md
-├── CONTRIBUTING.md
-├── LICENSE (if applicable)
 ├── topics/
 │   ├── basic_programming_constructs/
 │   │   ├── ProblemName1.java
