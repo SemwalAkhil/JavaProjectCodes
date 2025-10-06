@@ -1,16 +1,9 @@
-//1. Write a Java method to find the smallest number among three numbers.
-class Smallest
+//2. Write a Java method to compute the average of three numbers.
+class Average
 {
-	int smallNumber(int x,int y,int z)
+	float averageNumber(int x,int y,int z)
 	{
-		if(x<y && x<z)
-			return x;
-		else if(y<x && y<z)
-			return y;
-		else if(z<x && z<y)
-			return z;
-		else
-			return x;
+		return (x+y+z)/3.00f;
 	}
 }
 
@@ -19,7 +12,8 @@ class Main
 	public static void main(String st[])
 	{
 		String a,b,c;
-		int x,y,z,ans=0;
+		int x,y,z;
+		float ans=0;
 		java.io.InputStreamReader isr=new java.io.InputStreamReader(System.in);
         java.io.BufferedReader br=new java.io.BufferedReader(isr);
 		
@@ -37,8 +31,8 @@ class Main
 			c=br.readLine();
 			z=Integer.parseInt(c);
 			
-			Smallest s=new Smallest();
-			ans=s.smallNumber(x,y,z);
+			Average avg=new Average();
+			ans=avg.averageNumber(x,y,z);
 		}
 		catch(java.io.IOException e)
 		{
@@ -49,7 +43,7 @@ class Main
 			System.out.println(e);
 		}
 		
-		System.out.println("Smallest number is : "+ans);
+		System.out.println("Average of 3 numbers : "+ans);
 	}
 }
 
@@ -59,8 +53,8 @@ class Main
 Output : 
 
 Enter first number : 10
-Enter second number : -10
-Enter third number : 20
-Smallest number is : -10
+Enter second number : 15
+Enter third number : 10
+Average of 3 numbers : 11.666667
 
  */
