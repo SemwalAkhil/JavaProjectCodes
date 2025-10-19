@@ -1,7 +1,5 @@
 // CODE:-
 
-package CODE.INHERITANCE;
-
 class Vehicle
 {
     void drive()
@@ -27,4 +25,5 @@ class Main{
         obj1.drive();
         obj2.drive();
     }
+
 }
