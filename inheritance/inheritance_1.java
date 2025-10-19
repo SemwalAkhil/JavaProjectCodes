@@ -1,7 +1,5 @@
 // CODE:-
 
-package CODE.INHERITANCE;
-
 class Animal
 {
     void makeSound()
@@ -28,4 +26,5 @@ class Main
         obj1.makeSound();
         obj2.makeSound();
     }
+
 }
