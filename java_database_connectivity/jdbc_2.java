@@ -7,7 +7,7 @@ class Main {
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
             Connection c = DriverManager.getConnection("jdbc:mysql://localhost:3306/bca2ndyear_4090", "root",
-                    "@Gagan123");
+                    "root");
             Statement st = c.createStatement();
             st.executeUpdate("CREATE TABLE java(Rollno int, Name varchar(50))");
 
@@ -19,4 +19,5 @@ class Main {
             System.out.println(e);
         }
     }
+
 }
