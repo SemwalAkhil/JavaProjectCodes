@@ -9,7 +9,7 @@ class Main {
 
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
-            Connection c = DriverManager.getConnection("jdbc:mysql://localhost:3306/bca2ndyear_4090", "root", "@Gagan123");
+            Connection c = DriverManager.getConnection("jdbc:mysql://localhost:3306/bca2ndyear_4090", "root", "root");
 
             // ------------------ SHOW TABLE ------------------
             System.out.println("----- Current Table -----");
@@ -83,3 +83,4 @@ class Main {
         }
     }
 }
+
